@@ -1,0 +1,112 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(navy, cyan);
+  font-family: sans-serif;
+}
+
+button:hover {
+  cursor: grab;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+
+
+
+.container {
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+
+
+.todo-lomake {
+  margin: 40px 0px;
+}
+
+.todo-syote {
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.add-nappi {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 1.2rem;
+}
+
+
+
+.todo-tavarat {
+  min-width: 45%;
+}
+
+
+.item {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.item:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.item:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.delete-button {
+  float: right;
+  background-color: red;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  padding: 4px 10px;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+
+.checked { 
+  text-decoration: line-through;
+}
